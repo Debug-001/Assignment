@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Monument+Extended:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-montserrat: Montserrat;
+  --font-monument-extended: "Monument Extended";
+  --font-libre-franklin: "Libre Franklin";
+
+  /* font sizes */
+  --font-size-13xl: 2rem;
+  --font-size-18xl-1: 2.32rem;
+  --font-size-5xl: 1.5rem;
+  --font-size-45xl: 4rem;
+  --font-size-lg: 1.13rem;
+  --font-size-xl: 1.25rem;
+  --font-size-17xl: 2.25rem;
+  --font-size-base: 1rem;
+
+  /* Colors */
+  --white: #fff;
+  --black: #000;
+  --grey-2: #c2d0d6;
+  --green-2: #07dd92;
+  --dark-primary: #152a31;
+  --green-3: #b5f5df;
+  --s-1: #0092bd;
+  --color-gray: #7f7f7f;
+
+  /* Border radiuses */
+  --br-3xs: 10px;
+  --br-xl: 20px;
+  --br-11xl: 30px;
+
+  /* Effects */
+  --ds-1: -4px 4px 16px rgba(0, 0, 0, 0.25);
+}
