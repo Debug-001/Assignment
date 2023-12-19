@@ -1,9 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Gabarito&family=Montserrat:wght@300;400&display=swap");
+
 .all-vehicles {
   position: absolute;
   top: 0;
   left: 0;
   line-height: 160%;
   font-weight: 500;
+}
+
+.main-div{
+  background-image: url(../../public/bg-1.png);
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-size: contain;
+  /* background-position: right; */
+  background-position: 1350px;
+}
+
+.second-div{
+  background-image: url(../../public/bg-2.png);
+  background-repeat: no-repeat;
+  background-size: 100px;
+  /* background-size: contain; */
+  /* background-position: right; */
+  background-position: 1350px;
+}
+
+
+.second-header {
+  margin-top: 8rem;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  transform-origin: bottom right;
+  transition: all 0.25s ease-in-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #000;
 }
 
 .group-child {
@@ -49,6 +98,18 @@
   width: 23.46rem;
   height: 25.63rem;
   object-fit: contain;
+}
+
+.navbar {
+  -webkit-box-shadow: -1px 3px 30px -2px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: -1px 3px 30px -2px rgba(0, 0, 0, 0.53);
+  box-shadow: -1px 3px 30px -2px rgba(0, 0, 0, 0.53);
+}
+
+.dropdown-menu {
+  width: 100%;
+  max-width: 10px;
+  margin-right: 10rem;
 }
 
 .vehicle-item {
@@ -410,7 +471,7 @@
 
 .our-zero-emission {
   background: linear-gradient(46.21deg, #0092bd 0, #00c67a);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -545,7 +606,7 @@
   font-size: var(--font-size-13xl);
   font-family: var(--font-monument-extended);
   background: linear-gradient(131.65deg, #07dd92, #06b9f0);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -744,7 +805,7 @@
 }
 
 .first-charge-heading {
-  font-size: .7rem;
+  font-size: 0.7rem;
 }
 
 .btn-clr {
@@ -768,7 +829,7 @@
   margin-top: -15rem;
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width: 1200px) {
   .top-img {
     max-width: 35rem;
   }
@@ -778,7 +839,7 @@
   }
 }
 
-@media screen and (max-width:992px) {
+@media screen and (max-width: 992px) {
   .top-img {
     max-width: 20rem;
   }
@@ -788,7 +849,7 @@
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .top-img {
     max-width: 9rem;
   }
@@ -798,7 +859,7 @@
   }
 }
 
-@media screen and (max-width:531px) {
+@media screen and (max-width: 531px) {
   .top-img {
     max-width: 7rem;
   }
@@ -824,8 +885,6 @@
   font-weight: 700;
 }
 
-
-
 .top-div-custom-img {
   transform: scale(1.5);
 }
@@ -842,7 +901,7 @@
 .footer-touch {
   font-size: var(--font-size-13xl);
   background: linear-gradient(131.65deg, #07dd92, #06b9f0);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
